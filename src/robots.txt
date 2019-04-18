@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+
+Sitemap: https://www.allawaken.com/sitemap.xml

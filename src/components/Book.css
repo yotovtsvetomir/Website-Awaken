@@ -1,0 +1,43 @@
+.book_section {
+  height: 512px;
+  padding-top: 30px;
+}
+
+.book_title {
+  text-align: center;
+  color: rgba(0,0,0, .77);
+  position: relative;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.book_decor {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 77px;
+  height: 3px;
+  background: #fbc02d;
+}
+
+.book_subtitle {
+  text-align: center;
+  width: 70%;
+  margin: 30px 15% 0 15%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.book {
+  margin-top: 20px;
+  height: 300px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

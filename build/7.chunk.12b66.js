@@ -1,0 +1,2 @@
+webpackJsonp([7],{HGGQ:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n("KM04"),c=(n.n(i),n("O6gG")),d=Object(i.h)("div",{style:"height: 100vh; padding: 100px 200px;"},Object(i.h)("img",{src:c,style:"width: 100%; height: 100%;"}));t.default=function(){return d}},O6gG:function(e,t,n){e.exports=n.p+"9f111c009e800f4b71179976d103fd13.png"}});
+//# sourceMappingURL=7.chunk.12b66.js.map

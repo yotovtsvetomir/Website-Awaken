@@ -1,0 +1,111 @@
+.awagoal {
+  padding-top: 64px;
+  background: #fafafa;
+}
+
+.awagoal_image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.awagoal_title {
+  color: #fff;
+  font-family: monoton, cursive;
+  text-shadow: 0 0 80px #fff, 0 0 40px #f1f1f1, 0 0 6px #f1f1f1;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  word-spacing: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  padding: 43px 0 30px 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.awagoal_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.awagoal_block {
+  width: 49%;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.awagoal_block_title {
+  font-size: 35px;
+  text-align: left;
+  font-weight: 900;
+  color: rgba(0,0,0, .84);
+  padding: 50px 0 30px 50px;
+}
+
+.awagoal_block_image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+}
+
+.awagoal_block p {
+  font-size: 25px;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, .87);
+  padding: 0px 50px 50px 50px;
+}
+
+@media screen and (max-width: 1100px) {
+  .awagoal_title {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .awagoal_block_image {
+    height: 250px;
+  }
+
+  .awagoal_block_title {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .awagoal_content {
+    column-count: 1;
+   }
+  .awagoal_title {
+     width: 70%;
+     margin-left: 15%;
+   }
+  .awagoal_block {
+     width: 100%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  .awagoal_title {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+    padding: 20px 0;
+  }
+  .awagoal_block_title {
+    padding-right: 10px;
+  }
+}

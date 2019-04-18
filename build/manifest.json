@@ -1,0 +1,13 @@
+{
+  "name": "allawaken",
+  "short_name": "AA",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAFAFA",
+  "icons": [
+    {
+      
+    }
+  ]
+}
